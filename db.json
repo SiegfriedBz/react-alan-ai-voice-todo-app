@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "content": "Write code",
+      "done": true
+    },
+    {
+      "id": 2,
+      "content": "Buy fruits",
+      "done": false
+    },
+    {
+      "content": "call Gringo",
+      "done": false,
+      "id": 4
+    }
+  ]
+}

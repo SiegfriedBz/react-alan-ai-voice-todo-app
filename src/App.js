@@ -28,7 +28,6 @@ function App() {
                     const todos = await todoServices.getAllTodos()
                     setTodos(todos)
                 }
-
                 else if(command === 'updateTodo') {
                     let todos = await todoServices.getAllTodos()
                     const intId = wordsToNumbers(todoId)
@@ -39,18 +38,15 @@ function App() {
                     todos = await todoServices.getAllTodos()
                     setTodos(todos)
                 }
-
                 else if(command === 'deleteTodo') {
                     const intId = wordsToNumbers(todoId)
                     await todoServices.deleteTodo(intId)
                     const todos = await todoServices.getAllTodos()
                     setTodos(todos)
                 }
-
             }
         });
     }, [])
-
 
   return (
     <div>

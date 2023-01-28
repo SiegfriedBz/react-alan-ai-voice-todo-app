@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@alan-ai/alan-sdk-web": "^1.8.42",
-    "firebase": "^9.16.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-dotenv": "^0.1.3",

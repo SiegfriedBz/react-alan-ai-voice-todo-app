@@ -17,7 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 Launches the json server on -p3001
 
 
-### `Click` and ask 
+### `Click` and `Speak` 
 - 'Add to do // todo //'
 - 'Update to do number // todo number //' #=> toggle done
 - 'Delete to do number // todo number //'
